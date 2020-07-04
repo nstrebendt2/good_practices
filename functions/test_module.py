@@ -11,4 +11,3 @@ def test_function(x):
 if __name__ == '__main__':
     result = test_function(3)
     print(result)
-
