@@ -7,7 +7,7 @@ class Basic_Math():
         super().__init__()
         # self.number = 2
 
-    def exponentNumber(self, number):
+    def exponentNumber(self, number: int) -> int:
         """
             A good practice is to create a docstring first
             and then write your code.
@@ -15,6 +15,7 @@ class Basic_Math():
             This function takes a number and multiplies it by a power of 2
         """
         return number ** 2
+
 
 if __name__ == '__main__':
     result = Basic_Math.exponentNumber(3,4)
