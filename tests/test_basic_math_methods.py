@@ -14,7 +14,7 @@ class TestBasicMath(unittest.TestCase):
         A method to make an exponentialized number 
         """        
         number = 2
-        assert math.sqrt(Basic_Math.exponentNumber(2, number)) == math.sqrt(number)
+        assert math.sqrt(Basic_Math.exponentNumber(2, number)) == number
 
 
 if __name__ == "__main__":
